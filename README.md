@@ -34,6 +34,8 @@ $$
 C(x)=\left\{y: s(x,y)\leq \widehat{q}(x)\right\}=\left[\widehat{t}_{\alpha/2}(x)-\widehat{q}(x), \widehat{t}_{1-\alpha/2}(x)+\widehat{q}(x)\right],
 $$ as desired. Note that these weights are actually dependent on $x$, so for every $x$ that we sample, we may observe a different width for each prediction interval. This makes sense, since we should be more/less confident based on the proximity of our input $x$ to our training/calibration data and is the reason that the weights $p_i^w$ are calculated in the manner above.
 
+Sample output can be found in the Jupyter notebook.
+
 ## Sources
 [1] Angelopoulos, A. N., & Bates, S. (2022). A gentle introduction to conformal prediction and distribution-free uncertainty quantification. arXiv. https://arxiv.org/abs/2107.07511
 
